@@ -1,13 +1,12 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/detail/detail"
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"white",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "鲜花订购",
+    "navigationBarTitleText": "段彤彤",
     "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#F2f2f2",
     "enablePullDownRefresh": true

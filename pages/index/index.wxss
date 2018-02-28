@@ -1,5 +1,11 @@
 /**index.wxss**/
 @import "../../common.wxss";
+
+
+
+
+
+
 .card_wrap {
   background: #f2f2f6;
   position: relative;
@@ -10,6 +16,8 @@
   position: absolute;
   width: 80%;
 }
+
+
 .card_wrap .card_item .buy_btn {
   position: absolute;
   bottom: 43px;
@@ -20,7 +28,7 @@
   position: absolute;
   width: 35px;
   height: 11px;
-  top: 14px;
+  top: 24px;
   left: 50%;
   margin-left: -17px;
   box-shadow:none;
@@ -38,54 +46,102 @@
   margin-left: 28px;
   position: absolute;
   top: -12px;
+  color: #9932CC;
 }
 .card_wrap .card_item .card_info .card_info_mes_item {
   margin-left: 28px;
   display: block;
   font-size: 12px;
   line-height: 24px;
+  color: #9932CC;
 }
 
 
-.card_wrap .card_item.card1 {
+
+.card_wrap .card_item.card {
   /*top: 62px;
   left: 25px;*/
-  transform: translateY(62px) translateX(25px);
+  background-color: #fce6ff;
+  transform: translateY(60px) translateX(25px);
+  border: outset 1px #ffffff ;
   z-index: 3
 }
-.card_wrap .card_item.card1 .card_info {
+.card_wrap .card_item.card .card_info {
   top: 270px;
   left: 20px;
   /*transform: translateY(270px) translateX(20px);*/
 }
+
+
+.card_wrap .card_item.card1 {
+  transform: translateY(60px) translateX(25px);
+  z-index: 4
+}
+.card_wrap .card_item.card1 .card_info {
+  top: 270px;
+  left: 20px;
+}
 .card_wrap .card_item.card2 {
-  /*top: 44px;
-  left: 41px;*/
-  z-index: 2;
-  transform: translateY(44px) translateX(41px);
+  z-index: 3;
+  transform: translateY(40px) translateX(41px);
 }
 .card_wrap .card_item.card2 .card_info {
   top: 195px;
   left: 14px;
-  border-color: #fff;
 }
 
 .card_wrap .card_item.card3 {
-  /*top: 28px;
-  left: 51px;*/
-  transform: translateY(28px) translateX(51px);
-  z-index: 1;
+  transform: translateY(20px) translateX(51px);
+  z-index: 2;
 }
 
 .card_wrap .card_item.card3 .card_info {
   top: 73px;
   left: 50px;
-  border-color: #fff;
 }
+
 .card_wrap .card_item image {
   display: block;
   width: 100%;
-  height: 500px;
+  height: 430px;
   border-radius: 6px;
-  box-shadow: 6px 23px 50px 10px #ccc;
 }
+
+
+
+
+.cardTitle {
+  font-size: 20px;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  color: #9932CC;
+}
+
+
+
+.cardInfoMes{
+  font-size: 16px;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  color: #9932CC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
